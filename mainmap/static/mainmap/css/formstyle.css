@@ -1,0 +1,42 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.mapbox {
+    position: relative;
+}
+
+.mapbox .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 314159;
+    pointer-events: none;
+}
+
+.mapbox .overlay .btn {
+    pointer-events: initial;
+}
+
+.overlay {
+    padding: 15px;
+}
+
+#searchForm {
+    margin-top: 10px;
+}
+
+.form-control {
+    pointer-events: auto;
+    padding: 5px;
+}
+
+.row {
+    padding: 5 px;
+}

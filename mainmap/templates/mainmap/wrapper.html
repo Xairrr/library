@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Some title </title>
+        {% include "mainmap/includes/import_leaflet.html" %}
+        {% include "mainmap/includes/import_bs4.html" %}
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="static/mainmap/css/mapstyle.css">
+        <link rel="stylesheet" type="text/css" href="static/mainmap/css/formstyle.css">
+        <!--Import fa icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+
+    <body>
+        {% block 1 %}
+        {% endblock 1 %}
+    </body>
+</html>

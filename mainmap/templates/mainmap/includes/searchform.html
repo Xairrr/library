@@ -1,0 +1,34 @@
+<form class="searchform form-horizontal container" method="GET">
+    <div class="form-group row">
+        <span class="help-block text-muted col-4" > Даты не раньше:</span>
+        <input class="form-control col-8" id="date_after" type="date" name="date_after" value="1900-01-01">
+    </div>
+    <div class="form-group row">
+        <span class="help-block text-muted col-4" > Даты не позже:</span>
+        <input class="form-control col-8" id="date_before" type="date" name="date_before" value="2000-01-01">
+    </div>
+    <div class="form-group row">
+        <span class="help-block text-muted col-4" > Источник:</span>
+    <!--    <input class="form-control col-8" id="source" type="text" name="source" value=""> -->
+
+        <select class="form-control col-8" id="source" name="source">
+          <option value="Архив">Архив</option>
+          <option value="Личный архив">Личный архив</option>
+          <option value="Интернет источник">Интернет источник</option>
+          <option value="Неизвестно">Неизвестно</option>
+        </select>
+    </div>
+    <div class="form-group row">
+        <span class="help-block text-muted col-4" > Ключевые слова:</span>
+        <input class="form-control col-8" id="description" type="text" name="description" value="">
+    </div>
+    <div class="row">
+        <span class="col-8"></span>
+        <input class="btn btn-default col-4" id="searchSubmitButton" type="submit" value="Поиск">
+    </div>
+
+
+
+    <input type="hidden" id="latLong" name="ll" value="" />
+    <input type="hidden" id="zoom" name="zoom" value="" />
+</form>
